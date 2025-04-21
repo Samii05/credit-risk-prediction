@@ -27,6 +27,19 @@ The best model (`AdaBoostClassifier`) was saved using `joblib` along with the re
 
 An interactive and professional web application is developed using **Streamlit**. Users can enter client information to instantly get a prediction on credit risk.
 
+<p align="center">
+  <img src="assets/streamlit_ui.png" alt="Streamlit UI" width="600">
+</p>
+
+## 📈 Model Performance
+
+Here are the evaluation results on the test set:
+
+<p align="center">
+  <img src="assets/performance_plots/classification_report.png" width="400">
+  <img src="assets/performance_plots/confusion_matrix.png" width="300">
+  <img src="assets/performance_plots/roc_auc_curve.png" width="400">
+</p>
 
 ## 📁 Repository Structure
 
