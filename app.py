@@ -21,6 +21,7 @@ st.markdown("Remplissez les informations client pour prédire son profil de cré
 # === Formulaire utilisateur ===
 with st.form("credit_form"):
     col1, col2 = st.columns(2)
+    
     with col1:
         sex = st.selectbox("Sex", options=["male", "female"])
         job = st.selectbox("Job", options=["0", "1", "2", "3"])
