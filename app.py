@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 import numpy as np
 
-# === Charger modèle et objets ===
+# === Charger modèle et objets ===             
 model = joblib.load("model/best_adaboost.pkl")
 label_encoders = joblib.load("model/label_encoders.pkl")
 scaler = joblib.load("model/scaler.pkl")
